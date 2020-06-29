@@ -288,7 +288,7 @@ import argparse
 parser = argparse.ArgumentParser()
 
 parser.add_argument('-s', '--setup', type=int, help="Please select a number between \
-                    0 and 3 to choose the setup of the training", default=0)
+                    0 and 2 to choose the setup of the training", default=0)
 
 parser.add_argument('-m','--model', type=str,help="Please choose the type of model \
                     you want to train (cascade or multiview)",choices=['cascade', 'multiview'])
@@ -301,7 +301,7 @@ parser.add_argument('-e','--epochs',type=int,help="Please choose the number of \
                     epochs, by default 1 epoch", default=1)
 
 parser.add_argument('-d','--depth',type=int,help="Please choose the depth of the\
-                    input tensors, by default 10 epoch", default=10)
+                    input tensors, by default 10", default=10)
 
 args = parser.parse_args()
 

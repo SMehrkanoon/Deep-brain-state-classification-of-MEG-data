@@ -1,3 +1,28 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+# 								      #
+# The script downloads the subjects and saves the subject in          #
+# both the original format and h5 format (preprocessing them as well) #
+# ready to use with EEGNet                                            #
+#                                                                     #
+# To download the subjects from Amazon S3 server you need an account  #
+# on such a server and enough disk memory as the are quite heavy      #
+#								      #
+# ------------------------------------------------------------------- #
+#								      #	
+# FILL THE LINES WITH THE PERSONAL & SECRET ACCESS KEY BELOW!         #
+#								      #
+# ------------------------------------------------------------------- #
+#								      #
+#  **Please make sure you have the next dependences installed**       #
+#								      #
+#  pip install NumPy						      #
+#  pip install boto3						      #
+#  pip install sklearn                                                #
+#  pip install keras                                                  #
+#  pip install h5py                                                   #
+#								      #  
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
 import data_utils_EEGNet as utils
 import numpy as np
 import os
@@ -6,30 +31,6 @@ from sklearn.model_selection import train_test_split
 from keras import utils as np_utils
 import h5py
 
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-# 																	                                  #
-# The script downloads the subjects and saves the subject in          #
-# both the original format and h5 format (preprocessing them as well) #
-# ready to use with EEGNet                                            #
-#                                                                     #
-# To download the subjects from Amazon S3 server you need an account  #
-# on such a server and enough disk memory as the are quite heavy      #
-#																	                                    #
-# ------------------------------------------------------------------- #
-#																  	                                  #	
-# FILL THE LINES WITH THE PERSONAL & SECRET ACCESS KEY BELOW!! :)	    #
-#																	                                    #
-# ------------------------------------------------------------------- #
-#																  	   																#
-#  **Please make sure you have the next dependences installed**       #
-#																  	                                  #
-#  pip install NumPy									                       		      #
-#  pip install boto3										                       	      #
-#  pip install sklearn                                                #
-#  pip install keras                                                  #
-#  pip install h5py                                                   #
-#																                                      #  
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 #List of the subjects to be dowloaded
 list_subjects = ['105923','164636', '133019',
@@ -96,6 +97,16 @@ for subject in list_subjects:
   with h5py.File(destination_file,"w") as hf:
       hf.create_dataset("x_train"+'_'+str(subject), data=X_train,compression="gzip", compression_opts=4)
       hf.create_dataset("x_validate"+'_'+str(subject), data=X_validate,compression="gzip", compression_opts=4)
+      hf.create_dataset("y_train"+'_'+str(subject), data=Y_train,compression="gzip", compression_opts=4)
+      hf.create_dataset("y_validate"+'_'+str(subject), data=Y_validate,compression="gzip", compression_opts=4)
+
+  #Freeing memory
+  del X_train
+  del Y_train
+  del X_validate
+  del Y_validate
+
+4)
       hf.create_dataset("y_train"+'_'+str(subject), data=Y_train,compression="gzip", compression_opts=4)
       hf.create_dataset("y_validate"+'_'+str(subject), data=Y_validate,compression="gzip", compression_opts=4)
 
