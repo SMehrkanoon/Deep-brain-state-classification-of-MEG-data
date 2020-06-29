@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg4577"
+   xml:space="preserve"
+   width="420"
+   height="144"
+   viewBox="0 0 419.99998 144"
+   sodipodi:docname="results.svg"
+   inkscape:version="0.92.1 r15371"><metadata
+     id="metadata4583"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs4581"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4595"><path
+         d="M 200,75 H 623 V 222 H 200 Z"
+         id="path4593"
+         inkscape:connector-curvature="0" /></clipPath></defs><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     id="namedview4579"
+     showgrid="false"
+     inkscape:zoom="0.84139767"
+     inkscape:cx="197.9626"
+     inkscape:cy="-40.210849"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g4585" /><g
+     id="g4585"
+     inkscape:groupmode="layer"
+     inkscape:label="Untitled spreadsheet - Sheet1 (1)"
+     transform="matrix(1.3333333,0,0,-1.3333333,-351.83332,721.33332)"><g
+       id="g4587"
+       transform="matrix(1,0,0,-1,0,595)"><g
+         id="g4589"
+         transform="matrix(0.75,0,0,0.75,112.375,-3.75)"><g
+           id="g4591"
+           clip-path="url(#clipPath4595)"><path
+             d="m 202,77 h 420 v 30 H 202 Z"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path4597"
+             inkscape:connector-curvature="0" /><path
+             d="M 202,107 H 319 V 221 H 202 Z"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path4599"
+             inkscape:connector-curvature="0" /><path
+             d="m 319,189 h 303 v 32 H 319 Z"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path4601"
+             inkscape:connector-curvature="0" /><path
+             d="m 318,106 h 304 v 83 H 318 Z"
+             style="fill:#d9ead3;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path4603"
+             inkscape:connector-curvature="0" /><text
+             transform="translate(333,96.19385)"
+             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text4607"><tspan
+               x="0 9.3859997 16.614 20.215 28.872999 32.473999 36.075001 43.303001 50.530998 54.132 57.018002 64.246002"
+               y="0"
+               sodipodi:role="line"
+               id="tspan4605">No Attention</tspan></text>
+<text
+             transform="translate(431,96.19385)"
+             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text4611"><tspan
+               x="0 8.658 15.886 18.771999 22.372999 25.974001 34.632 38.233002 41.834 49.062 56.290001 59.890999 62.777 70.004997"
+               y="0"
+               sodipodi:role="line"
+               id="tspan4609">Self Attention</tspan></text>
+<text
+             transform="translate(533,96.19385)"
+             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text4615"><tspan
+               x="0 8.658 15.886 18.771999 22.372999 25.974001 33.553001 37.153999 47.255001 50.140999 57.368999 64.597 71.824997"
+               y="0"
+               sodipodi:role="line"
+               id="tspan4613">Self + Global</tspan></text>
+<text
+             transform="translate(225,124.19385)"
+             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text4619"><tspan
+               x="0 8.658 17.316 21.645 30.302999 38.960999 49.062 58.448002 65.676003"
+               y="0"
+               sodipodi:role="line"
+               id="tspan4617">AA-EEGNet</tspan></text>
+<text
+             transform="translate(361,124.19385)"
+             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text4623"><tspan
+               x="0 7.2280002"
+               y="0"
+               sodipodi:role="line"
+               id="tspan4621">83</tspan></text>
+<text
+             transform="translate(462,124.19385)"
+             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text4627"><tspan
+               x="0 7.2280002"
+               y="0"
+               sodipodi:role="line"
+               id="tspan4625">90</tspan></text>
+<text
+             transform="translate(563,124.19385)"
+             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text4631"><tspan
+               x="0 7.2280002"
+               y="0"
+               sodipodi:role="line"
+               id="tspan4629">90</tspan></text>
+<text
+             transform="translate(213,151.19385)"
+             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text4635"><tspan
+               x="0 8.658 17.316 21.645 31.031 38.258999 44.758999 51.258999 58.487 65.714996 72.943001 82.329002 89.556999"
+               y="0"
+               sodipodi:role="line"
+               id="tspan4633">AA-CascadeNet</tspan></text>
+<text
+             transform="translate(361,151.19385)"
+             style="font-variant:normal;font-weight:bold;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text4639"><tspan
+               x="0 7.2280002"
+               y="0"
+               sodipodi:role="line"
+               id="tspan4637">91</tspan></text>
+<text
+             transform="translate(462,151.19385)"
+             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text4643"><tspan
+               x="0 7.2280002"
+               y="0"
+               sodipodi:role="line"
+               id="tspan4641">92</tspan></text>
+<text
+             transform="translate(563,151.19385)"
+             style="font-variant:normal;font-weight:bold;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text4647"><tspan
+               x="0 7.2280002"
+               y="0"
+               sodipodi:role="line"
+               id="tspan4645">93</tspan></text>
+<text
+             transform="translate(212,179.19385)"
+             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text4651"><tspan
+               x="0 8.658 17.316 21.645 32.473999 39.702 42.588001 46.188999 49.075001 55.575001 58.460999 65.689003 75.074997 84.460999 91.689003"
+               y="0"
+               sodipodi:role="line"
+               id="tspan4649">AA-MultiviewNet</tspan></text>
+<text
+             transform="translate(361,179.19385)"
+             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text4655"><tspan
+               x="0 7.2280002"
+               y="0"
+               sodipodi:role="line"
+               id="tspan4653">90</tspan></text>
+<text
+             transform="translate(462,179.19385)"
+             style="font-variant:normal;font-weight:bold;font-size:13px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text4659"><tspan
+               x="0 7.2280002"
+               y="0"
+               sodipodi:role="line"
+               id="tspan4657">94</tspan></text>
+<text
+             transform="translate(563,179.19385)"
+             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text4663"><tspan
+               x="0 7.2280002"
+               y="0"
+               sodipodi:role="line"
+               id="tspan4661">92</tspan></text>
+<text
+             transform="translate(381,209.19385)"
+             style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="text4667"><tspan
+               x="0 9.3859997 13.715 20.943001 27.443001 33.943001 37.543999 44.043999 51.271999 58.5 61.386002 68.613998 75.113998 78.714996 82.316002 85.917 93.144997 99.644997 103.246 106.132 113.36 120.588 124.189 131.41701 137.91701 144.41701 151.645 155.974 163.202 169.702"
+               y="0"
+               sodipodi:role="line"
+               id="tspan4665">Cross subject testing accuracy</tspan></text>
+</g></g></g></g></svg>

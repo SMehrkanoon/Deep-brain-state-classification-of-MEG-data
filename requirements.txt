@@ -1,0 +1,15 @@
+numpy>=1.18.1
+scipy>=1.4.1
+matplotlib>=3.1.2
+scikit-learn>=0.22.1
+pysurfer==1.4.1
+numba==0.48.0
+nibabel==3.0.2
+pandas==1.0.5
+DIPY==1.1.1
+pyvista==0.25.3
+pyriemann==0.2.6
+mne==0.19.2
+tensorflow==2.2.0-rc2
+boto3==1.11.5
+h5py==2.10.0
