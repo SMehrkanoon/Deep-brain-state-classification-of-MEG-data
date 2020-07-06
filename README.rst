@@ -108,9 +108,11 @@ If you decide to cite our project in your paper or use our data, please use the 
 
 .. code:: bibtex
 
-  @misc{alaoui2020meg,
-     title={Deep brain state classification of MEG data},
-     author={Alaoui Abdellaoui, Ismail and García Fernández, Jesús and Şahinli, Caner and Mehrkanoon, Siamak},
-     year={2020},
-     url={}
-  }
+@misc{abdellaoui2020deep,
+    title={Deep brain state classification of MEG data},
+    author={Ismail Alaoui Abdellaoui and Jesús García Fernández and Caner Şahinli and Siamak Mehrkanoon},
+    year={2020},
+    eprint={2007.00897},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
