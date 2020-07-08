@@ -76,6 +76,9 @@ To test the AA-EEGNet with a pretrained model:
     
     python Test.py
 
+Note 1: The training file in AA-CascadeNet_AA-MultiviewNet folder uses multiprocessing to load the data, and the number of workers set for training/validation/testing might not be the most optimal one for your computer.
+
+Note 2: It is not advised to run the code in Jupyter notebook environments since the multiprocessing does not interact properly with those environments.
 
 
   
