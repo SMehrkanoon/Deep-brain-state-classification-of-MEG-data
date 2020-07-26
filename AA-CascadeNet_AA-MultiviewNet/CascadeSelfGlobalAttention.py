@@ -205,14 +205,14 @@ class CascadeSelfGlobalAttention:
           convs.append(dense2)
           
       merge = concatenate(convs,axis=1,name = "merge")  
-      lstm1 = LSTM(self.lstm1_cells, return_sequences=True,name = "lstm"+str(1))(merge)
-      lstm2 = LSTM(self.lstm2_cells, return_sequences=True,name = "lstm"+str(2))(lstm1)
+      lstm1 = LSTM(self.lstm1_cells, return_sequences=True,name = "lstm1")(merge)
+      lstm2 = LSTM(self.lstm2_cells, return_sequences=True,name = "lstm2")(lstm1)
 
       attention_output = self.attention_block(lstm2)
       
-      dense3 = Dense(self.dense3_nodes, activation=self.dense3_activation,name = "dense"+str(2))(attention_output)
-      final = Dropout(self.final_dropout, name = "dropout"+str(1))(dense3)
-      output = Dense(self.number_classes, activation="softmax",name = "dense"+str(3))(final)
+      dense3 = Dense(self.dense3_nodes, activation=self.dense3_activation,name = "dense2")(attention_output)
+      final = Dropout(self.final_dropout, name = "dropout1")(dense3)
+      output = Dense(self.number_classes, activation="softmax",name = "dense3")(final)
       
       model = Model(inputs=inputs, outputs=output)
       return model
