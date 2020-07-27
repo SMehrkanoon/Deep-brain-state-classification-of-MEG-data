@@ -85,11 +85,11 @@ Note 2: It is not advised to run the code in Jupyter notebook environments since
 📂 Data
 -----
 
-- Data for the AA-CascadeNet and the AA-MultiviewNet networks at the following `link <https://mega.nz/file/KcsXELzR#HLpcYcP7g5VM4NdAIM4M-hxXjyhtLncbrj4xUh6Zr9k>`__
+In order to download the data, please email to both of the following addresses:
 
-- Data for AA-EEGNet at the following `link <https://mega.nz/file/GVk0EKCI#GX6agShuNWVx2ucktIiJPRkwLQDQCI6BNeFP-tq5pwM>`__
+i.alaouiabdellaoui@student.maastrichtuniversity.nl
 
-Both datasets contain the same subjects for training, validation, and testing, but they slightly differ in the trials selected.
+siamak.mehrkanoon@maastrichtuniversity.nl
 
 The data must be downloaded and unzipped in the same directory as the scripts.
 
