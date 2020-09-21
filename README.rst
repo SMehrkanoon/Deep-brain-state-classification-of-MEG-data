@@ -1,7 +1,7 @@
 📡 Deep brain state classification of MEG data
 ========
 
-This project aims to perform cross-subject multi-class classification based on MEG signals to infer the subject's state. The implemented models are AA-CascadeNet, AA-MultiviewNet and AA-EEGNet, all of which incorporates both self and global attention mechanisms. 
+This project aims to perform cross-subject multi-class classification based on MEG signals to infer the subject's state. The implemented models are AA-CascadeNet, AA-MultiviewNet and AA-EEGNet, all of which incorporates both self and global attention mechanisms. The original paper can be found at: https://arxiv.org/pdf/2007.00897.pdf
 
 
 📊 Results
