@@ -10,6 +10,6 @@ DIPY==1.1.1
 pyvista==0.25.3
 pyriemann==0.2.6
 mne==0.19.2
-tensorflow==2.2.0-rc2
+tensorflow==2.7.2
 boto3==1.11.5
 h5py==2.10.0
